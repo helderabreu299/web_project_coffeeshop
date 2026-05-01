@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,25 +17,57 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
     <div class="page">
       <header class="header">
-        <nav>
-          <img src="./images/logo_coffeeshop_dark.svg" />
-          <ul>
-            <li>Receitas</li>
-            <li>Reservar uma mesa</li>
-            <li>Contatos</li>
+        <nav class="nav">
+          <img
+            src="images/logo_coffeeshop_dark.svg"
+            alt="imagem de logo"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li><a class="nav__link" href="#Recipes">Receitas</a></li>
+            <li>
+              <a class="nav__link" href="#Reservation">Reservar uma mesa</a>
+            </li>
+            <li><a class="nav__link" href="#Contacts">Contactos</a></li>
           </ul>
         </nav>
-      </header>
 
-      <main class="content">
-        <section class="recipes" id="recipes"></section>
-        <section class="reservation" id="reservation"></section>
-      </main>
+        <h1 class="header__title">
+          <span class="span-accent"> Café especial</span><br>
+          na biblioteca Triple peaks
+        </h1>
+        <p class="header__discription">
+          Esta é uma zoda de estudo!temos aquele cafezinho para energizar<br> você e
+          vibrações aconchegantes para soltar a criatividade</br></p>
+        </p>
+        <img
+          class="header__image"
+          src="images/inside_coffee_shop.png"
+          alt="imagem da loja café"
+        />
 
-      <footer class="footer"></footer>
+        <div class="header__footer">
+            <p>Horários:</p>
+            <p>Segunda a sexta (10:00 - 19:00)</p>
+            <p>Sábado a domingo (11:00 - 18:00)</p>
+        </div>
+
+        <div class="header__paragraph">
+          <p>200 sucess Avenue, a cidade de triple peaks</p>
+        </div>
+        </header>
+
+        <main class="content">
+          <section class="recipes" id="recipes"></section>
+          <section class="reservation" id="reservation"></section>
+        </main>
+
+        <footer class="footer"></footer>
+      
     </div>
   </body>
 </html>
