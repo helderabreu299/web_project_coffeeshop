@@ -113,6 +113,7 @@
   display: flex;
   margin-left: 80px;
   margin-right: 80px;
+  margin-bottom: 40px;
   margin-top: auto;
   justify-content: space-between;
 }
@@ -126,13 +127,12 @@
   color: #838383;
   flex-direction: column;
   line-height: 2px;
-  margin-bottom: 40px;
 }
 
 .endereço {
   align-self: flex-end;
+  align-items: self-end;
   margin-right: 80px;
-  margin-bottom: 40px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
