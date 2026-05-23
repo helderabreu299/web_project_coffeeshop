@@ -41,7 +41,7 @@
           <span class="span-accent-3">na biblioteca Triple peaks</span>
         </h1>
         <p class="header__description">
-          Esta é uma zoda de estudo!temos aquele cafezinho para energizar<br />
+          Esta é uma zona de estudo!temos aquele cafezinho para energizar<br />
           você e vibrações aconchegantes para soltar a criatividade
         </p>
 
@@ -100,7 +100,25 @@
               
        </section>
 
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Reservar uma mesa</h2>
+          <div class="reservation__form">
+          <form class="form">
+            <fieldset class="form__fieldset">
+              <label for="name" class="form___label">Nome</label>
+              <input type="text" id="name" class="form__input" required placeholder=" nome"/>
+              <label for="number" class="form___label">Número de convidados</label>
+              <input type="number" id="number" class="form__input" required placeholder="1-8" min="1" max="8"/>
+              <label for="datetime-local" class="form___label">Data e hora</label>
+              <input type="datetime-local" id="datetime-local" class="form__input" required/> 
+              <label for="email" class="form-__label">Email</label>
+              <input type="email" id="email" class="form__input" required placeholder="email@email.com"/>
+              <button type="submit" class="form__submit" required>Reservar uma mesa</button>
+              <label for="checkbox" class="form__label form__label-checkbox"><input type="checkbox" id="termos" class="form__checkbox" required/>Eu concordo com o termo de uso</label>
+            </fieldset>
+          </form>
+          </div>
+        </section>
       </main>
 
       <footer class="footer"></footer>
