@@ -219,11 +219,11 @@
   background-image: url(../images/background_reservation.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 100px;
 }
 
 .reservation__title {
-  margin-top: 100px;
-  text-align: center;
+  margin: 0 auto 80px;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -232,7 +232,7 @@
 }
 
 .reservation__form {
-  margin: 80px auto 120px auto;
+  margin: auto auto 120px;
 }
 
 .form {
