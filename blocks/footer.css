@@ -1,0 +1,96 @@
+.footer {
+  display: flex;
+  background-color: #0a2850;
+  position: relative;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.footer__content {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  margin-top: 60px;
+  margin-bottom: 108px;
+  margin-left: 80px;
+  margin-right: 80px;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  width: 105px;
+  height: 39px;
+  z-index: 3;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__circle {
+  position: absolute;
+  width: 340px;
+  height: 340px;
+  background-color: #2f80ed;
+  border-radius: 50%;
+  left: -44px;
+  top: -128px;
+}
+
+.footer__social {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__social-heading {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.footer__list {
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+  padding: 0;
+  margin-top: 0;
+}
+
+.footer__list-item {
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.footer__social-link {
+  text-decoration: none;
+  color: white;
+}
+.footer__social-link :hover {
+  color: #c1c1c1;
+}
+.footer__social-link :focus {
+  color: #c1c1c1;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.footer__copyright {
+  color: white;
+  margin-bottom: 60px;
+  margin-left: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
