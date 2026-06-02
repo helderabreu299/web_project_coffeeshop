@@ -26,7 +26,7 @@
   letter-spacing: -1px;
   z-index: 2;
 }
-.span-accent {
+.header__span-accent {
   display: block;
   font-family: "Noto Serif";
   font-style: italic;
@@ -36,7 +36,7 @@
   color: #2f80ed;
 }
 
-.span-accent-3 {
+.header__span-accent-3 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -85,7 +85,7 @@
   line-height: 2px;
 }
 
-.endereço {
+.header__paragraph-address {
   align-self: flex-end;
   align-items: self-end;
   margin-right: 80px;
